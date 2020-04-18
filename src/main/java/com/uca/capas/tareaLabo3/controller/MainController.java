@@ -13,7 +13,7 @@ public class MainController {
 	public @ResponseBody String infoalumno() {
 
 		return ("Informacion del alumno: <br/> " + "Nombre: Roberto <br/>" + "Apellido: Fuentes <br/>"
-				+ "Carrera: Ingenieria Informatica <br/>" + "Año: 4 ");
+				+ "Carnet: 00062217 <br/>" + "Carrera: Ingenieria Informatica <br/>" + "Año: 4 ");
 	}
 
 	@RequestMapping("/parametros")
